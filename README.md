@@ -1,6 +1,6 @@
 # Laravel Job Queue
 
-In your local kindly cd through the job-queue folder and run the ff.:
+In your local kindly cd through the laravel-queue folder and run the ff.:
 
 ### Create .env file
 cp .env.example .env 
