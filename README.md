@@ -2,8 +2,14 @@
 
 In your local kindly cd through the job-queue folder and run the ff.:
 
+### Create .env file
+cp .env.example .env 
+
 ### install library dependencies
 composer install
+
+### generate artisan key
+php artisan key:generate
 
 ### this will initiate the docker instances
 docker-compose up -d
